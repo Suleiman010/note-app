@@ -10,6 +10,9 @@ body {
 }
 
 @layer components {
+  .input-label {
+    @apply text-xs text-slate-400;
+  }
   .input-box {
     @apply w-full text-sm bg-transparent border-[1.5px] border-gray-300 px-5 py-3 mb-4 outline-none rounded;
   }
