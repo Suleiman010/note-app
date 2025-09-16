@@ -32,7 +32,7 @@ const TagInput = ({ tags, setTags }) => {
             >
               #{tag}
               <button onClick={() => handleRemoveTag(tag)}>
-                <MdClose className=" text-red-400  " />
+                <MdClose className="text-red-400" />
               </button>
             </span>
           ))}
