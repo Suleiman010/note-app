@@ -28,7 +28,7 @@ const TagInput = ({ tags, setTags }) => {
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="flex items-center gap-2 text-sm text-green-900  bg-slate-100 px-3 py-1 "
+              className="flex items-center gap-2 text-sm text-green-900  bg-slate-100 px-3 py-1"
             >
               #{tag}
               <button onClick={() => handleRemoveTag(tag)}>
