@@ -35,7 +35,7 @@ const Home = () => {
       <button
         className="w-16 h-16 flex items-center justify-center cursor-pointer rounded-2xl bg-green-500 hover:bg-green-600 transition-colors absolute right-10 bottom-10"
         onClick={() =>
-          setOpenAddEditModal({ isShown: true, type: "Add", data: null })
+          setOpenAddEditModal({ isShown: true, type: "add", data: null })
         }
       >
         <MdAdd className="text-[32px] text-white" />

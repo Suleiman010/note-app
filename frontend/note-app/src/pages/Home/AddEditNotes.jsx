@@ -4,7 +4,7 @@ import { MdClose } from "react-icons/md";
 
 import TagInput from "../../components/PasswordInput/TagInput";
 
-const AddEditNotes = ({ onClose, type }) => {
+const AddEditNotes = ({ onClose, type, noteData }) => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [tags, setTags] = useState([]);
