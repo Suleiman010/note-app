@@ -51,7 +51,7 @@ const TagInput = ({ tags, setTags }) => {
           className="flex items-center justify-center rounded border border-green-700  hover:bg-green-600 transition-all"
           onClick={() => addNewTags()}
         >
-          <MdAdd className="text-2xl text-green-600  hover:text-white " />
+          <MdAdd className="text-2xl text-green-600  hover:text-white" />
         </button>
       </div>
     </div>
