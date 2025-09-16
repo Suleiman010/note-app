@@ -19,7 +19,7 @@ const AddEditNotes = ({ onClose, type, noteData }) => {
   };
   const handleAddNote = () => {
     if (!title) {
-      setError("Please add task title");
+      setError("Please add note title");
       return;
     }
     if (type === "add") {
